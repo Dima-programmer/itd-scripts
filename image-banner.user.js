@@ -1,12 +1,14 @@
 // ==UserScript==
-// @name         Image cropper with fixed aspect ratio (непропорциональное растяжение)
-// @namespace    http://tampermonkey.net/
-// @version      2.5
-// @description  Чекбокс растягивает изображение непропорционально, заполняя область обрезки.
-// @author       You
-// @match        *://*/*
+// @name         Image cropper with fixed aspect ratio (cover stretch)
+// @namespace    https://github.com/Dima-programmer/itd-scripts
+// @version      2.6
+// @description  Adds custom SVG button (18x18) with title "Загрузить баннер". Crop modal with aspect ratio 650/224, beautiful checkbox for non‑proportional stretch to fill crop area. Uploads as JPG, sets bannerId, reloads on success. Toast notifications.
+// @author       Dmitry (Дым) 
+// @match        https://xn--d1ah4a.com/
 // @grant        GM.xmlHttpRequest
 // @grant        GM_addStyle
+// @updateURL    https://github.com/Dima-programmer/itd-scripts/raw/refs/heads/main/image-banner.user.js
+// @downloadURL  https://github.com/Dima-programmer/itd-scripts/raw/refs/heads/main/image-banner.user.js
 // ==/UserScript==
 
 (function() {
